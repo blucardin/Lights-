@@ -1,5 +1,5 @@
 # Lights!
-#### Video Demo:  <URL HERE>
+#### Video Demo:  https://youtu.be/PH5mAJPhH-c
 #### Description:
 
 For the Lights! project, I displayed videos and images on an addressable set of Christmas lights. 
