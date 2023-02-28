@@ -13,7 +13,7 @@ At first, I struggled with serial communication. I started with an arduino to co
 
 I realized that the arduino was sending 5v signals which would be read fine by the 12v lights over the I2C connection, but the pi was sending 3.3v signals which wouldn't be picked up by the lights. I had to use a level shifter to convert the signals. After it arrived in the mail, I was good to go.
 
-I also faced issues with determining the positions of the lights. They way I was able to display images was by determining the position of each light and then mapping the pixels of the image to the lights. I did this by taking a picture of the lights and then using an algorithm to determine the position of each light. 
+I also faced issues with determining the positions of the lights. The way I was able to display images was by determining the position of each light and then mapping the pixels of the image to the lights. I did this by taking a picture of the lights and then using an algorithm to determine the position of each light. 
 
 This algorithm was not perfect. It would apply a gaussian blur to the image, then set the position of the light to the center of the brightest pixel. This would sometimes work, but sometimes the lights would be off by a few pixels. I tried to fix this by changing up the code, but it was not as accurate.
 
