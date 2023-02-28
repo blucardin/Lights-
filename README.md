@@ -1,4 +1,7 @@
 # Lights!
+
+![alt text](https://github.com/blucardin/Lights-/blob/a62bd654ee98b5f9166e320bfc36aaa7a4b4cc77/images/redCircle.png?raw=true)
+
 #### Video Demo:  https://youtu.be/PH5mAJPhH-c
 #### Description:
 
